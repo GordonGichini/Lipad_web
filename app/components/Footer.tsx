@@ -1,7 +1,8 @@
 import Link from 'next/link'
-import { Input } from "@/components/ui/input"
-import { Button } from "@/components/ui/button"
+// import { Input } from "@/components/ui/input"
+// import { Button } from "@/components/ui/button"
 import { Facebook, Twitter } from 'lucide-react'
+// import { Input } from "postcss";
 
 export default function Footer() {
     return (
@@ -10,8 +11,8 @@ export default function Footer() {
                 <div className="mb-8">
                     <h2 className="text-2xl font-bold mb-4">I'm interested to simplify my business today!</h2>
                     <div className="flex max-w-md">
-                        <Input type="email" placeholder="Enter your email" className="rounded-r-none" />
-                        <Button type="submit" className="rounded-l-none bg-orange-500 hover:bg-orange-600">Submit Now</Button>
+                        {/*<Input type="email" placeholder="Enter your email" className="rounded-r-none" />*/}
+                        {/*<Button type="submit" className="rounded-l-none bg-orange-500 hover:bg-orange-600">Submit Now</Button>*/}
                     </div>
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
