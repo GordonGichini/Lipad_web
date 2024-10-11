@@ -4,28 +4,28 @@ const features = [
     {
         title: "Petty Cash Efficiency, Simplified",
         description: "Real time, stay on schedule, handle all your expenses from wherever you are.",
-        image: "/petty-cash.jpg",
+        image: "/Images/Illustration_Frame.png",
         fullWidth: true
     },
     {
         title: "Streamline Your Invoicing",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ut vulputate nisi.",
-        image: "/invoicing.jpg"
+        image: "/Images/Illustration_Frame (1).png"
     },
     {
         title: "Collect Instore with different payment methods?",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ut vulputate nisi.",
-        image: "/collect-instore.jpg"
+        image: "/Images/Illustration_Frame (2).png"
     },
     {
         title: "Get paid instantly using our payment request links",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ut vulputate nisi.",
-        image: "/payment-links.jpg"
+        image: "/Images/Illustration_Frame (3).png"
     },
     {
         title: "Connect with your Customers easily",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ut vulputate nisi.",
-        image: "/connect-customers.jpg"
+        image: "/Images/Illustration_Frame (1).png"
     }
 ]
 

@@ -13,7 +13,8 @@ const heroContent = [
     {
         title: "Effortless Transactions, Endless Possibilities",
         subtitle: "Lorem ipsum dolor sit amet consectetur adipiscing elit",
-        image: "/PDQ 2.png"
+        image: "/Images/PDQ 2.png"
+
     }
 ]
 
@@ -39,7 +40,9 @@ export default function HeroSection() {
                         <p className="text-xl text-gray-600 mb-8">
                             {heroContent[currentSlide].subtitle}
                         </p>
-                        <button className="bg-blue-600 text-white px-6 py-3 rounded-md text-lg font-semibold hover:bg-blue-700">
+                        <button
+                            className="px-4 py-2 bg-[#1F2544] text-white rounded-full hover:bg-blue-700"
+                        >
                             Get Started
                         </button>
                         <div className="mt-8 flex space-x-2">

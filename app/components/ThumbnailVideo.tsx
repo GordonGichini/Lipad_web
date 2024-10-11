@@ -8,7 +8,7 @@ const ThumbnailVideo: React.FC = () => {
                 <h3 className="text-2xl font-bold text-gray-800 mb-4">Learn how to use Lipad</h3>
                 <p className="text-gray-600 mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                 <div className="relative">
-                    <img src="path_to_thumbnail_image" alt="Learn Lipad" className="w-full h-auto rounded-lg"/>
+                    <img src="/Images/" alt="Learn Lipad" className="w-full h-auto rounded-lg"/>
                     <button className="absolute inset-0 flex items-center justify-center text-white bg-black bg-opacity-50 rounded-lg">
                         <span className="text-4xl">▶️</span>
                     </button>

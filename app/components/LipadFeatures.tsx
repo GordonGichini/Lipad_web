@@ -6,10 +6,10 @@ import { ChevronDown, ChevronUp } from 'lucide-react'
 
 const bankLogos = [
     { name: 'Co-op Bank', src: '/Images/image 78.png' },
-    { name: 'Stanbic Bank', src: '/stanbic-bank-logo.png' },
-    { name: 'Absa', src: '/absa-logo.png' },
-    { name: 'KCB', src: '/kcb-logo.png' },
-    { name: 'I&M Bank', src: '/im-bank-logo.png' },
+    { name: 'Stanbic Bank', src: '/Images/image 77.png' },
+    { name: 'Absa', src: '/Images/image 79.png' },
+    { name: 'KCB', src: '/Images/image 80.png' },
+    { name: 'I&M Bank', src: '/Images/image 81.png' },
 ]
 
 const accordionItems = [
