@@ -42,34 +42,42 @@ export default function DiscoverLipad() {
                     </p>
                 </div>
 
-                <div className="space-y-8">
+                <div className="flex flex-wrap -mx-4">
                     {features.map((feature, index) => (
-                        <div key={index} className={`bg-white overflow-hidden shadow-lg rounded-lg ${feature.fullWidth ? 'w-full' : 'w-full md:w-[calc(50%-1rem)] inline-block align-top'} ${index > 0 && index % 2 === 1 ? 'md:mr-8' : ''}`}>
-                            <div className={`relative p-6 ${feature.fullWidth ? 'md:flex' : 'flex flex-col'}`}>
-                                <div className="absolute top-6 left-6">
-                                    <div className="h-6 w-6 rounded-full bg-green-500"></div>
-                                </div>
-                                {feature.fullWidth && (
-                                    <div className="md:w-1/2 md:pr-6 mb-6 md:mb-0">
-                                        <Image
-                                            src={feature.image}
-                                            alt={feature.title}
-                                            width={500}
-                                            height={300}
-                                            objectFit="cover"
-                                            className="rounded-lg"
-                                        />
+                        <div key={index} className={`${feature.fullWidth ? 'w-full mb-8' : 'w-full md:w-1/2 px-4 mb-8'}`}>
+                            <div className="bg-gray-200 overflow-hidden shadow-lg rounded-lg">
+                                <div className={`p-6 flex ${feature.fullWidth ? 'flex-col md:flex-row-reverse' : 'flex-col'} items-center`}>
+
+                                    {/* First Card with Image on Right */}
+                                    {feature.fullWidth && (
+                                        <div className="md:w-1/2 mb-6 md:mb-0 md:pl-6">
+                                            <Image
+                                                src={feature.image}
+                                                alt={feature.title}
+                                                width={400}
+                                                height={300}
+                                                objectFit="cover"
+                                                className="rounded-lg"
+                                            />
+                                        </div>
+                                    )}
+
+                                    {/* Green Dot and Text */}
+                                    <div className={`${feature.fullWidth ? 'md:w-1/2' : 'w-full'} relative`}>
+                                        <div className="absolute -top-3 left-0 bottom-3">
+                                            <div className="h-6 w-6 rounded-full bg-green-500"></div>
+                                        </div>
+                                        <h3 className="text-xl font-semibold text-gray-900 mt-8">{feature.title}</h3>
+                                        <p className="text-base text-gray-500 mt-2">{feature.description}</p>
                                     </div>
-                                )}
-                                <div className={`${feature.fullWidth ? 'md:w-1/2' : 'w-full'}`}>
-                                    <h3 className="text-xl font-semibold text-gray-900 mb-2 mt-8">{feature.title}</h3>
-                                    <p className="text-base text-gray-500 mb-6">{feature.description}</p>
+
+                                    {/* Non-Full-Width Cards Image */}
                                     {!feature.fullWidth && (
                                         <div className="mt-4">
                                             <Image
                                                 src={feature.image}
                                                 alt={feature.title}
-                                                width={500}
+                                                width={400}
                                                 height={300}
                                                 objectFit="cover"
                                                 className="rounded-lg"

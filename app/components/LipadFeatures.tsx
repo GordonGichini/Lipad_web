@@ -27,7 +27,7 @@ export default function LipadFeatures() {
     }
 
     return (
-        <div className="bg-gray-100 text-black py-12">
+        <div className="bg-white text-black py-12">
             <div className="max-w-6xl mx-auto px-4">
                 <h2 className="text-2xl font-bold mb-8 text-center">Our partner banks</h2>
                 <div className="flex justify-between items-center mb-16">
